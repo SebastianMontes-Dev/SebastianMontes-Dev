@@ -78,40 +78,6 @@ API REST que digitaliza la experiencia de restaurantes: el cliente escanea el QR
 
 ---
 
-### PostgresPulse - Diagnostico y salud de bases PostgreSQL
-
-Plataforma para analizar bases PostgreSQL en modo solo lectura, calcular un indice de salud y entregar recomendaciones tecnicas accionables.
-
-**Lo mas relevante:**
-
-- Diagnosticos sobre rendimiento, almacenamiento, integridad, concurrencia y conexiones.
-- Recomendaciones SQL listas para ejecutar, como indices, vacuum y ajustes de esquema.
-- Fuentes multiples en tiempo de ejecucion, credenciales cifradas y despliegue con Docker Compose.
-- Integracion opcional con Prometheus y Grafana.
-
-**Stack:** Java, Spring Boot, PostgreSQL, Docker, Prometheus, Grafana.
-
-[Ver repositorio](https://github.com/SebastianMontes-Dev/PostgresPulse)
-
----
-
-### Inventario de Proveedores - SaaS B2B
-
-Plataforma para gestionar proveedores e inventario con backend robusto y frontend moderno.
-
-**Lo mas relevante:**
-
-- API RESTful en Spring Boot con autenticacion segura usando JWT.
-- Persistencia con Spring Data JPA y MySQL.
-- Frontend SPA con Angular 17 y Angular Material.
-- Documentacion interactiva con SpringDoc OpenAPI.
-
-**Stack:** Java 17, Spring Boot, Spring Security, JWT, MySQL 8, Angular 17, Docker.
-
-[Ver repositorio](https://github.com/SebastianMontes-Dev/inventario-proveedores)
-
----
-
 ## Experiencia destacada
 
 ### Asistente Academico con IA Generativa - Pasantia de investigacion
