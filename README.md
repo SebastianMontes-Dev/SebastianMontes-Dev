@@ -46,16 +46,16 @@ Actualmente busco oportunidades Junior, Trainee o practicas donde pueda aportar 
 
 ### NexaSaaS - API Cloud Multi-Tenant E-commerce
 
-API backend para e-commerce B2B con arquitectura multi-tenant, aislamiento hibrido de datos y busqueda optimizada.
+API backend para e-commerce B2B con arquitectura multi-tenant, aislamiento de datos por inquilino y busqueda optimizada.
 
 **Lo mas relevante:**
 
-- Multi-tenancy con `Hibernate @Filter` para tenants estandar y `AbstractRoutingDataSource` para clientes premium.
+- Multi-tenancy con `Hibernate @Filter` por fila, tenant resuelto en el servidor en cada request y pruebas de integracion que verifican el aislamiento entre tiendas.
 - CQRS con sincronizacion asincrona de PostgreSQL hacia Elasticsearch.
 - Integracion de pagos con Stripe usando Strategy para facilitar nuevas pasarelas.
 - Resiliencia con Resilience4j, Redis, Flyway, Docker y pruebas con JUnit, Mockito y Testcontainers.
 
-**Stack:** Java 21, Spring Boot 3.4.1, PostgreSQL 16, Elasticsearch 8.18, Redis 7.2, Flyway, Resilience4j, Docker.
+**Stack:** Java 21, Spring Boot 3.4.4, PostgreSQL 16, Elasticsearch 8.18, Redis 7.2, Flyway, Resilience4j, Docker.
 
 [Ver repositorio](https://github.com/SebastianMontes-Dev/ecommerce-platform)
 
