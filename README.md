@@ -61,23 +61,6 @@ API backend para e-commerce B2B con arquitectura multi-tenant, aislamiento hibri
 
 ---
 
-### MesaQR - Pedidos y pagos por QR para restaurantes
-
-API REST que digitaliza la experiencia de restaurantes: el cliente escanea el QR de su mesa, ordena desde el celular y recibe actualizaciones en tiempo real.
-
-**Lo mas relevante:**
-
-- Codigos QR unicos por mesa y sesiones temporales con tokens UUID.
-- Actualizaciones en tiempo real con WebSocket/STOMP para sala y cocina.
-- Control de concurrencia con bloqueos pesimistas y reintentos con backoff.
-- Observabilidad con Actuator, Micrometer/Prometheus y documentacion Swagger/OpenAPI.
-
-**Stack:** Java 21, Spring Boot 3.3, PostgreSQL, Flyway, WebSocket, Spring Retry, JUnit 5, Mockito, Docker.
-
-[Ver repositorio](https://github.com/SebastianMontes-Dev/MesaQR)
-
----
-
 ## Experiencia destacada
 
 ### Asistente Academico con IA Generativa - Pasantia de investigacion
