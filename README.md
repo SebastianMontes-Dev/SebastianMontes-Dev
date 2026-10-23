@@ -57,7 +57,7 @@ API backend para e-commerce B2B con arquitectura multi-tenant, aislamiento de da
 
 **Stack:** Java 21, Spring Boot 3.4.4, PostgreSQL 16, Elasticsearch 8.18, Redis 7.2, Flyway, Resilience4j, Docker.
 
-[Ver repositorio](https://github.com/SebastianMontes-Dev/ecommerce-platform)
+[Ver repositorio](https://github.com/SebastianMontes-Dev/nexasaas-multitenant-api)
 
 ---
 
